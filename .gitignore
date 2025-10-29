@@ -1,0 +1,32 @@
+# Python関連
+__pycache__/
+ *.py[cod]
+ *.so
+ .Python
+ env/
+ venv/
+ # Jupyter関連
+.ipynb_checkpoints/
+ *.ipynb_checkpoints
+ # データファイル（大きいので除外）
+data/raw/*.csv
+ data/raw/*.xlsx
+ data/raw/*.json
+ *.h5
+ *.hdf5
+ *.pkl
+ *.pickle
+ # モデルファイル（大きい場合は除外）
+models/*.h5
+ models/*.pth
+ *.ckpt
+ *.weights
+ # 環境設定・IDE
+ .env
+ .vscode/
+ .idea/
+ *.swp
+ # OS関連
+.DS_Store
+ Thumbs.db
+ desktop.ini
