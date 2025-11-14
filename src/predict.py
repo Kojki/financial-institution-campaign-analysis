@@ -163,7 +163,7 @@ def predict_interactive(model):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="訓練済みモデルを使用して予測を行います",
+        description="Use the trained model to make predictions",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Usage example:
