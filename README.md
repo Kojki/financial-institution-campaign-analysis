@@ -29,7 +29,7 @@ mkdir -p data
 your-project/
 ├── data/
 │   ├── Bank.csv          # Bank customer data
-├── models/               # 学習済みモデル保存先
+├── models/               # Trained Model Storage Location
 ├── notebooks/            # Jupyter Notebook
 ├── src/
 │   ├── train.py
@@ -48,17 +48,17 @@ python scripts/verify_data.py
 
 **Output example:**
 ```
-データ検証中...
+Data verification in progress...
 ✓ data/iris.csv: 150行, 5列
 ✓ data/housing.csv: 506行, 14列
 ✓ data/titanic.csv: 891行, 12列
 
-すべてのデータファイルが正常です！
+All data files are normal!
 ```
 
 ### Troubleshooting
 
-**Q: I get an error that the data file was not found**
+**Q: I get an error that the data file was not found.**
 ```
 FileNotFoundError: [Errno 2] No such file or directory: 'data/iris.csv'
 ```
@@ -68,7 +68,7 @@ A: Please check below：
 2. The CSV file name is correct (including capitalization)
 3. The current directory is the project root
 
-**Q: The data seems to be different**
+**Q: The data seems to be different.**
 
 A: Data may vary depending on the edition of the book.
    This project is compatible with the 2nd edition data.
