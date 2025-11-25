@@ -1,14 +1,14 @@
-# Python関連
+# Python related
 __pycache__/
  *.py[cod]
  *.so
  .Python
  env/
  venv/
- # Jupyter関連
+ # Jupyter related
 .ipynb_checkpoints/
  *.ipynb_checkpoints
- # データファイル（大きいので除外）
+ # DataFiles
 data/raw/*.csv
  data/raw/*.xlsx
  data/raw/*.json
@@ -16,17 +16,17 @@ data/raw/*.csv
  *.hdf5
  *.pkl
  *.pickle
- # モデルファイル（大きい場合は除外）
+ # Model files
 models/*.h5
  models/*.pth
  *.ckpt
  *.weights
- # 環境設定・IDE
+ # Environment settings and IDE
  .env
  .vscode/
  .idea/
  *.swp
- # OS関連
+ # OS related
 .DS_Store
  Thumbs.db
  desktop.ini
