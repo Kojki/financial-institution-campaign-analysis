@@ -1,6 +1,6 @@
 # financial-institution-campaign-analysis
 
-**Note**: The models and notebooks folders are currently empty, but they have been prepared for future work.
+**Note**: The models and notebooks folders are currently empty, but they have been prepared for future work. Additionally, since thorough testing has not been completed at this stage, some features may not work as intended. Any errors found will be fixed as they are discovered.
 
 ## Data preparation
 
@@ -51,9 +51,9 @@ python scripts/verify_data.py
 **Output example:**
 ```
 Data verification in progress...
-✓ data/iris.csv: 150行, 5列
-✓ data/housing.csv: 506行, 14列
-✓ data/titanic.csv: 891行, 12列
+✓ data/iris.csv: 150rows, 5columns
+✓ data/housing.csv: 506rows, 14columns
+✓ data/titanic.csv: 891rows, 12columns
 
 All data files are normal!
 ```
