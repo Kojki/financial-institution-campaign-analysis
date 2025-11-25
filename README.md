@@ -1,5 +1,7 @@
 # financial-institution-campaign-analysis
 
+**Note**: The models and notebooks folders are currently empty, but they have been prepared for future work.
+
 ## Data preparation
 
 ### Step1: Download data
